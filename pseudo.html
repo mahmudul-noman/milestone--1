@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h1:hover{
+            color: red;
+        }
+        .middle-person:focus{
+            color: blue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: red;
+        }
+        li{
+            color: chocolate;
+            font-weight: 700;
+        }
+        li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: blue;
+        }
+        li:nth-child(2n+1){
+            color: goldenrod;
+        }
+        h3::before{
+            content: 'Here Is ';
+        }
+        h3::after{
+            content: ' List';
+            color: red;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is Normal</h1>
+    <input type="text" placeholder="Input Box">
+    <input class="middle-person" type="text" placeholder="Input Box">
+    <input type="text" placeholder="Input Box"> <br> <br>
+    <a href="google.com">Go to Google</a>
+    <a href="https://web.programming-hero.com/home/">Go to pHero</a>
+
+    <h3>Argentina Player</h3>
+    <h3>Argentina Player</h3>
+    <h3>Argentina Player</h3>
+
+    <ul>
+        <li>Lionel Messi</li>
+        <li>Enzo Farnandez</li>
+        <li>Dibu Martinez</li>
+        <li>Cuti Romero</li>
+        <li>Julian Alvarez</li>
+        <li>Montiel</li>
+        <li>Lionel Messi</li>
+        <li>Enzo Farnandez</li>
+        <li>Dibu Martinez</li>
+        <li>Cuti Romero</li>
+        <li>Julian Alvarez</li>
+        <li>Montiel</li>
+    </ul>
+    
+</body>
+</html>

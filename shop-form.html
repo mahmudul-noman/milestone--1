@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Welcome to my Shop</h2>
+    <form>
+        <label for="name">Your Name            
+            <input type="text" placeholder="Your Name">
+        </label>
+
+        <label for="name">Your Email            
+            <input type="email" placeholder="Your Email">
+        </label>
+
+        <label for="name">Your Phone            
+            <input type="number" placeholder="Your Phone Number">
+        </label>
+
+        <fieldset>
+            <legend>Pick One Item</legend>
+            <label for="aroma">
+                <input type="radio" name="pen" id="aroma">
+                Matador Aroma
+            </label>
+
+            <label for="iteen">
+                <input type="radio" name="pen" id="iteen">
+                Matador i-teen
+            </label>
+
+            <label for="hschool">
+                <input type="radio" name="pen" id="hschool">
+                Matador High-School
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick One Color</legend>
+            <label for="black">
+                <input type="checkbox" name="color" id="black">
+                Black
+            </label>
+
+            <label for="red">
+                <input type="checkbox" name="color" id="red">
+                Red
+            </label>
+
+            <label for="blue">
+                <input type="checkbox" name="color" id="blue">
+                Blue
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="4"></textarea>
+        </fieldset>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
